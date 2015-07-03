@@ -1,0 +1,1 @@
+src/arm/omap3-overo-summit.dtb: src/arm/.omap3-overo-summit.dtb.dts.tmp src/arm/omap3xxx-clocks.dtsi src/arm/omap34xx-omap36xx-clocks.dtsi src/arm/omap36xx-omap3430es2plus-clocks.dtsi src/arm/omap36xx-am35xx-omap3430es2plus-clocks.dtsi

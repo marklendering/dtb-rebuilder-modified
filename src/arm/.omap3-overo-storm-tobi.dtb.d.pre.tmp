@@ -1,0 +1,9 @@
+omap3-overo-storm-tobi.o: src/arm/omap3-overo-storm-tobi.dts \
+ src/arm/omap3-overo-storm.dtsi src/arm/omap36xx.dtsi src/arm/omap3.dtsi \
+ include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ src/arm/omap3-overo-base.dtsi src/arm/twl4030.dtsi \
+ src/arm/twl4030_omap3.dtsi src/arm/omap3-overo-tobi-common.dtsi \
+ src/arm/omap3-overo-common-peripherals.dtsi \
+ src/arm/omap3-overo-common-dvi.dtsi src/arm/omap-gpmc-smsc9221.dtsi

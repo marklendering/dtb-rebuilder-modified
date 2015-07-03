@@ -1,0 +1,1 @@
+src/arm/omap4-duovero-parlor.dtb: src/arm/.omap4-duovero-parlor.dtb.dts.tmp src/arm/omap44xx-clocks.dtsi src/arm/omap443x-clocks.dtsi

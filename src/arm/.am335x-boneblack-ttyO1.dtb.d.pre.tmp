@@ -1,0 +1,11 @@
+am335x-boneblack-ttyO1.o: src/arm/am335x-boneblack-ttyO1.dts \
+ src/arm/am33xx.dtsi include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/pinctrl/am33xx.h include/dt-bindings/pinctrl/omap.h \
+ src/arm/skeleton.dtsi src/arm/am335x-bone-common.dtsi \
+ src/arm/am335x-boneblack-1ghz.dtsi src/arm/am335x-peripheral-emmc.dtsi \
+ src/arm/am335x-bone-pinmux-emmc.dtsi \
+ include/dt-bindings/board/am335x-bbw-bbb-base.h \
+ src/arm/am335x-peripheral-nxp-hdmi.dtsi \
+ src/arm/am335x-bone-pinmux-nxp-hdmi.dtsi \
+ src/arm/am335x-peripheral-ttyO1.dtsi \
+ src/arm/am335x-bone-pinmux-ttyO1.dtsi

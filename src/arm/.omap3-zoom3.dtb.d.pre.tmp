@@ -1,0 +1,6 @@
+omap3-zoom3.o: src/arm/omap3-zoom3.dts src/arm/omap36xx.dtsi \
+ src/arm/omap3.dtsi include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ src/arm/omap-zoom-common.dtsi src/arm/omap-gpmc-smsc911x.dtsi \
+ src/arm/twl4030.dtsi

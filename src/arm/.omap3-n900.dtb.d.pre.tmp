@@ -1,0 +1,6 @@
+omap3-n900.o: src/arm/omap3-n900.dts src/arm/omap34xx-hs.dtsi \
+ src/arm/omap34xx.dtsi src/arm/omap3.dtsi include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ include/dt-bindings/input/input.h src/arm/twl4030.dtsi \
+ src/arm/twl4030_omap3.dtsi

@@ -1,0 +1,4 @@
+k2l-evm.o: src/arm/k2l-evm.dts src/arm/keystone.dtsi \
+ include/dt-bindings/interrupt-controller/arm-gic.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/gpio/gpio.h src/arm/skeleton.dtsi src/arm/k2l.dtsi

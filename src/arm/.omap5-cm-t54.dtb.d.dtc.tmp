@@ -1,0 +1,1 @@
+src/arm/omap5-cm-t54.dtb: src/arm/.omap5-cm-t54.dtb.dts.tmp src/arm/omap54xx-clocks.dtsi

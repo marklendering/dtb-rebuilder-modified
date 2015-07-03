@@ -1,0 +1,20 @@
+
+
+#include <dt-bindings/board/am335x-bbw-bbb-base.h>
+#include "am335x-peripheral-i2c2.dtsi"
+
+
+
+&am33xx_pinmux {
+	i2c2_pins: pinmux_i2c2{
+		pinctrl-single,pins = <
+			BONE_P9_20 (PIN_INPUT_PULLUP | MUX_MODE3) 
+			BONE_P9_19 (PIN_INPUT_PULLUP | MUX_MODE3) 
+		>;
+	};
+};
+
+&i2c2 {
+	pinctrl-0 = <&i2c2_pins>;
+	clock-frequency = <400000>;
+};

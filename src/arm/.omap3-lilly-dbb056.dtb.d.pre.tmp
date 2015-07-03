@@ -1,0 +1,6 @@
+omap3-lilly-dbb056.o: src/arm/omap3-lilly-dbb056.dts \
+ src/arm/omap3-lilly-a83x.dtsi src/arm/omap36xx.dtsi src/arm/omap3.dtsi \
+ include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ src/arm/twl4030.dtsi src/arm/twl4030_omap3.dtsi

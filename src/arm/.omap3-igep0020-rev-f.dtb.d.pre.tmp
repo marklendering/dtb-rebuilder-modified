@@ -1,0 +1,7 @@
+omap3-igep0020-rev-f.o: src/arm/omap3-igep0020-rev-f.dts \
+ src/arm/omap3-igep0020-common.dtsi src/arm/omap3-igep.dtsi \
+ src/arm/omap36xx.dtsi src/arm/omap3.dtsi include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ src/arm/twl4030.dtsi src/arm/twl4030_omap3.dtsi \
+ src/arm/omap-gpmc-smsc9221.dtsi

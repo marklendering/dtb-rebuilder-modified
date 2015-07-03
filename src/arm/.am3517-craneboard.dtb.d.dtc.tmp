@@ -1,0 +1,1 @@
+src/arm/am3517-craneboard.dtb: src/arm/.am3517-craneboard.dtb.dts.tmp src/arm/omap3xxx-clocks.dtsi src/arm/am35xx-clocks.dtsi src/arm/omap36xx-am35xx-omap3430es2plus-clocks.dtsi

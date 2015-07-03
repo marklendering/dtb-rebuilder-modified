@@ -1,0 +1,10 @@
+omap4-var-stk-om44.o: src/arm/omap4-var-stk-om44.dts \
+ src/arm/omap4-var-som-om44.dtsi src/arm/omap4460.dtsi src/arm/omap4.dtsi \
+ include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/arm-gic.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ src/arm/omap4-cpu-thermal.dtsi include/dt-bindings/thermal/thermal.h \
+ src/arm/twl6030.dtsi src/arm/twl6030_omap4.dtsi \
+ src/arm/omap4-var-som-om44-wlan.dtsi \
+ src/arm/omap4-var-om44customboard.dtsi include/dt-bindings/input/input.h

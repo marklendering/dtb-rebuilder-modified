@@ -1,0 +1,5 @@
+omap3-n9.o: src/arm/omap3-n9.dts src/arm/omap3-n950-n9.dtsi \
+ src/arm/omap36xx-hs.dtsi src/arm/omap36xx.dtsi src/arm/omap3.dtsi \
+ include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi

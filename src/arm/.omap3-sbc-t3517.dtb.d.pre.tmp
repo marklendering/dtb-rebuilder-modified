@@ -1,0 +1,5 @@
+omap3-sbc-t3517.o: src/arm/omap3-sbc-t3517.dts src/arm/omap3-cm-t3517.dts \
+ src/arm/am3517.dtsi src/arm/omap3.dtsi include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi \
+ src/arm/omap3-cm-t3x.dtsi src/arm/omap3-sb-t35.dtsi

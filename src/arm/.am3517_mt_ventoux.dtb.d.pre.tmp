@@ -1,0 +1,4 @@
+am3517_mt_ventoux.o: src/arm/am3517_mt_ventoux.dts src/arm/omap34xx.dtsi \
+ src/arm/omap3.dtsi include/dt-bindings/gpio/gpio.h \
+ include/dt-bindings/interrupt-controller/irq.h \
+ include/dt-bindings/pinctrl/omap.h src/arm/skeleton.dtsi
